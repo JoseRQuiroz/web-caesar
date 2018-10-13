@@ -12,8 +12,10 @@ form = """
 
 <html>
     <head>
+        <h3> Jose's Caesar Assignment</h3><br>
         <style>
             form {{
+                float:left;
                 background-color: #eee;
                 padding: 20px;
                 margin: 0 auto;
@@ -28,11 +30,10 @@ form = """
             }}
         </style>
     </head>
+
+  
 <body>
 
-    <h3> Jose's Caesar Assignment</h3>
- <div class="inner-wrapper">
-  
     <form class= "caesar-form" action = "/" method="POST">
     Rotate by: <input type="text" name="rot" id="rot" value="0" /> <br>
     <textarea name="text" id="text" />
@@ -41,9 +42,6 @@ form = """
     
     <input type="Submit" value="Submit Query" />
     </form>
-
-</div>
-
 
 </body>
 
