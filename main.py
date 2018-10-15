@@ -36,8 +36,7 @@ form = """
 
     <form class= "caesar-form" action = "/" method="POST">
     Rotate by: <input type="text" name="rot" id="rot" value="0" /> <br>
-    <textarea name="text" id="text" />
- {0}
+    <textarea name="text" id="text" />{0}
 </textarea><br>
     
     <input type="Submit" value="Submit Query" />
